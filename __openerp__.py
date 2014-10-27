@@ -20,22 +20,17 @@
 ###############################################################################
 
 {
-    "name": "Global Discount",
-    "summary": "Global discount on sale orders",
-    "version": "0.4",
-    "author": "Julius Network Solutions",
-    "website": "http://julius.fr",
+    "name": "ModernCare Discount",
+    "summary": "Customized total order discount for ModernCare",
+    "version": "0.1",
+    "author": "InfoMobius Co.,Ltd",
     "category": "Sales Management",
     "depends": [
         "sale",
         "stock",
     ],
     "description": """
-Global discount on a sale order
-===============================
-Module to manage a global discount in sale orders
-
-This module will add a field in the sale order, and it will work as the module "delivery" works.
+Customized total order discount for ModernCare
     """,
     "demo": [],
     "data": [
