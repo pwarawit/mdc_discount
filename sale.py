@@ -167,7 +167,7 @@ class sale_order(orm.Model):
                 sale.global_discount_percentage != 0.00:
                 model, product_id = data_obj.\
                     get_object_reference(cr, uid,
-                                         'global_discount',
+                                         'mdc_discount',
                                          'product_global_discount')
                 discount = sale.global_discount_percentage / 100
                 global_line_ids = line_obj.\
